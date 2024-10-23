@@ -1,0 +1,10 @@
+.colornavbar{
+    --bs-bg-opacity: 1;
+    background-color: #1A85B9 !important;
+}
+.modalloginregister{    
+    background-color: #2980b9 !important;
+    padding: 30px;
+    text-align: center;
+    
+}
