@@ -53,7 +53,7 @@ const Register = () => {
                 <input
                     type="text"
                     name="name"
-          className="form-control"
+                    className="form-control"
                     value={formData.name}
                     onChange={handleChange}
                     placeholder='Name'
@@ -64,7 +64,7 @@ const Register = () => {
                 <input
                     type="text"
                     name="username"
-          className="form-control"
+                    className="form-control"
                     value={formData.username}
                     onChange={handleChange}
                     placeholder='Username'
@@ -75,7 +75,7 @@ const Register = () => {
                 <input
                     type="email"
                     name="email"
-          className="form-control"
+                    className="form-control"
                     value={formData.email}
                     onChange={handleChange}
                     placeholder='Email'
@@ -86,7 +86,7 @@ const Register = () => {
                 <input
                     type="password"
                     name="password"
-          className="form-control"
+                    className="form-control"
                     value={formData.password}
                     onChange={handleChange}
                     placeholder='Password'
@@ -97,7 +97,7 @@ const Register = () => {
                 <input
                     type="password"
                     name="confirmpassword"
-          className="form-control"
+                    className="form-control"
                     value={formData.confirmpassword}
                     onChange={handleChange}
                     placeholder='Confirm password'

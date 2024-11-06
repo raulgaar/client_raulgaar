@@ -1,3 +1,14 @@
 .registerform {
     background-color: #1A85B9 !important;
 }
+.input-group .form-control {
+    padding-left: 40px;
+  }
+  
+  .input-icon {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #fff;
+  }

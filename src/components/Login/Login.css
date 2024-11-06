@@ -1,27 +1,47 @@
 .input-custom {
-    max-width: 300px;  /* Ancho máximo deseado */
-    width: 100%;  /* Mantiene responsivo */
-    margin: 0 auto;  /* Centrará los inputs */
+  max-width: 300px;
+  /* Ancho máximo deseado */
+  width: 100%;
+  /* Mantiene responsivo */
+  margin: 0 auto;
+  /* Centrará los inputs */
 }
 
 /* Ajuste para la tarjeta */
 .loginform {
-    background-color: #2980b9 !important;
-    border-radius: 10px;
-    padding: 30px;
-    text-align: center;  /* Para centrar los textos dentro del form */
-  }
+  background-color: #2980b9 !important;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  /* Para centrar los textos dentro del form */
+}
 
-  .loginformbutton{
-    background-color: #1417bb88 !important;
-    border-color: black;
-    box-shadow: 1px 1px 1px 1px black;
-    max-width: 300px;
-    width: 100%;
-    margin: 0 auto;
-    color:aliceblue !important;
-  }
-  
-  .fontlogin{
-    font-family: "Audiowide", sans-serif !important;
-  }
+.loginformbutton {
+  background-color: #1417bb88 !important;
+  border-color: black;
+  box-shadow: 1px 1px 1px 1px black;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  color: aliceblue !important;
+}
+
+.fontlogin {
+  font-family: "Audiowide", sans-serif !important;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group .form-control {
+  padding-left: 40px;
+}
+
+.input-icon {
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #fff;
+}

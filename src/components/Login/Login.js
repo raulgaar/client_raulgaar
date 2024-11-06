@@ -49,6 +49,9 @@ const Login = () => {
   return (
     <form onSubmit={handleSubmit}>
       <div className="form-group mb-3">
+        <span className="input-icon">
+          <i className="fas fa-user"></i>
+        </span>
         <input
           type="text"
           name="emailUsername"
@@ -60,6 +63,9 @@ const Login = () => {
         />
       </div>
       <div className="form-group mb-3">
+        <span className="input-icon">
+          <i className="fas fa-lock"></i>
+        </span>
         <input
           type="password"
           name="password"
