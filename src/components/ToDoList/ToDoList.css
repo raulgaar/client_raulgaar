@@ -66,7 +66,7 @@
     margin-top: 20px;
 }
 
-li {
+.itemList {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,7 +77,7 @@ li {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-li button {
+.itemList button {
     background-color: #e57373;
     padding: 5px 10px;
     font-size: 12px;
@@ -86,6 +86,6 @@ li button {
     cursor: pointer;
 }
 
-li button:hover {
+.itemList button:hover {
     background-color: #d32f2f;
 }
